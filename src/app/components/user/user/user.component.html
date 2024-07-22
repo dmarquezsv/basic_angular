@@ -1,0 +1,22 @@
+<h3>API EN PRODUCCIÓN</h3>
+<table  class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Email</th>
+        <th>Password</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userList">
+            <td>{{ user.id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.date }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.password }}</td>
+          </tr>
+    
+    </tbody>
+  </table>

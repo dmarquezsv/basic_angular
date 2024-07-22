@@ -1,0 +1,9 @@
+{
+    "/api": {
+      "target": "https://springboot-git-postgres-demo.apps-crc.testing/api/v1/users",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }
+  
